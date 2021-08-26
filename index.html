@@ -1,0 +1,659 @@
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="keywords" content="" />
+        <meta name="description" content="" />
+        <title> HTML CSS Template 1 </title>
+
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+
+        <!-- CSS Files -->
+        <!-- <link rel="stylesheet" href="css/all.min.css" /> -->
+        <link rel="stylesheet" href="css/font-awesome.min.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/utils.css" />
+
+        <!-- <audio src="music/bg.mp3" autoplay="true"></audio> -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+
+    </head>
+
+    <body>
+                                <!-- Header  -->
+        <div class="header">
+            <div class="container">
+                <div class="header-content">
+                    <div class="logo">
+                        <img src="images/logo-alt.webp" alt="Logo image" draggable="false" />
+                    </div>
+
+                    <ul class="nav">
+                        <audio id="beep" preload="auto">
+                            <source src="music/bg.mp3">
+                        </audio>
+                        <li><a href="#" class="active" >Home</a></li>
+                        <li><a href="#" >About</a></li>
+                        <li><a href="#" >Portfolio</a></li>
+                        <li><a href="#" >Services</a></li>
+                        <li><a href="#" >Prices</a></li>
+                        <li><a href="#" >Team</a></li>
+                        <li class="dropdown" >
+                            <a href="#">Blog</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">blog post</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#" >Contact</a></li>
+                    </ul> <!-- ./nav -->
+                    <div class="clear" ></div> <!-- ./Clear -->
+
+                </div> <!-- ./header-content -->
+            </div> <!-- ./container -->
+        </div>  <!-- ./header -->
+
+                                <!-- Home Section -->
+        <div class="home">
+            <div class="overlay">
+
+                <div class="home-content">
+                    <h1 class="title">The pharaoh is ready to party</h1>
+                    <p class="home-desc" >
+                        Morbi mattis felis at nunc. Duis viverra diam non justo. In nisl.
+                        Nullam sit amet magna in magna gravida vehicula. Mauris tincidunt 
+                        sem sed arcu. Nunc posuere.
+                    </p>
+                    <button class="btn btn-start hover-opacity">Get Started!</button>
+                    <button class="btn btn-learn hover-opacity">Learn More</button>
+                </div> <!-- ./home-content -->
+
+            </div> <!-- ./overlay -->
+        </div> <!-- ./home -->
+
+
+                                <!-- Section Header -->
+        <!-- <div class="section-header">
+            <h2 class="section-title">welcome to website</h2>
+            <span class="line"></span>
+        </div> -->
+
+
+                                <!-- About Section -->
+        <div class="about pd-y">
+            <div class="section-header mg-b-10">
+                <h2 class="section-title mg-b-10">welcome to website</h2>
+                <span class="line"></span>
+            </div> <!-- ./section-header -->
+
+            <div class="container">
+                <div class="about-content">
+
+                    <div class="about-item ltr-effect"> <!-- (1) -->
+                        <i class="icon fa fa-cogs fa-2x mg-b-10"></i>
+                        <h2 class="about-item-title mg-b-10">fully customizible</h2>
+                        <p class="about-item-desc mg-b-10">
+                            Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit amet.
+                        </p>
+                        <a href="#" class="about-item-link">read more</a>
+                    </div> <!-- ./about-item -->
+
+                    <div class="about-item mg ltr-effect"> <!-- (2 center) -->
+                        <i class="icon fa fa-magic fa-2x mg-b-10"></i>
+                        <h2 class="about-item-title mg-b-10">center customizible</h2>
+                        <p class="about-item-desc mg-b-10">
+                            Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit amet.
+                        </p>
+                        <a href="#" class="about-item-link">read more</a>
+                    </div> <!-- ./about-item -->
+
+                    <div class="about-item ltr-effect"> <!-- (3) -->
+                        <i class="icon fa fa-mobile fa-2x mg-b-10"></i>
+                        <h2 class="about-item-title mg-b-10">fully customizible</h2>
+                        <p class="about-item-desc mg-b-10">
+                            Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit amet.
+                        </p>
+                        <a href="#" class="about-item-link">read more</a>
+                    </div> <!-- ./about-item -->
+                    <!-- <div class="clear"></div> -->
+
+                </div> <!-- ./about-content -->
+            </div> <!-- ./container -->
+            <script>
+                var beepOne = $("#beep")[0];
+                $("body")
+                .mouseup (function() {
+                    beepOne.play();
+                });
+            </script>
+        </div> <!-- ./about -->
+
+
+
+                                <!-- Portfolio Section -->
+        <div class="portfolio pd-y bg-gray">
+            <div class="section-header mg-b-10">
+                <h2 class="section-title mg-b-10">featured works</h2>
+                <span class="line"></span>
+            </div>
+
+            <div class="container">
+                <div class="about-content">
+                    <div class="portfolio-item "> <!-- (1) -->
+                        <img src="images/work/work1.webp" alt="">
+
+                        <div class="layer-content">
+                            <div class="layer-info">
+                                <span class="category mg-b-10">category</span>
+                                <h3 class="layer-content-title mg-b-20">Lorem, ipsum dolor.</h3>
+                                <a href="#"><i class="fa fa-edit fa-lg"></i></a>
+                                <a href="#"><i class="fa fa-search fa-lg"></i></a>
+                            </div> <!-- ./layer-info -->
+                        </div> <!-- ./layer-content -->
+                        
+
+                    </div> <!-- ./portfolio-item -->
+                    <div class="portfolio-item mg "> <!-- (2) -->
+                        <img src="images/work/work2.webp" alt="">
+
+                        <div class="layer-content">
+                            <div class="layer-info">
+                                <span class="category">category</span>
+                                <h3 class="layer-content-title mg-b-20">Lorem, ipsum dolor.</h3>
+                                <a href="#"><i class="fa fa-edit fa-lg"></i></a>
+                                <a href="#"><i class="fa fa-search fa-lg"></i></a>
+                            </div> <!-- ./layer-info -->
+                        </div> <!-- ./layer-content -->
+
+                    </div> <!-- ./portfolio-item -->
+                    <div class="portfolio-item "> <!-- (3) -->
+                        <img src="images/work/work3.webp" alt="">
+                        
+                        <div class="layer-content">
+                            <div class="layer-info">
+                                <span class="category">category</span>
+                                <h3 class="layer-content-title mg-b-20">Lorem, ipsum dolor.</h3>
+                                <a href="#"><i class="fa fa-edit fa-lg"></i></a>
+                                <a href="#"><i class="fa fa-search fa-lg"></i></a>
+                            </div> <!-- ./layer-info -->
+                        </div> <!-- ./layer-content -->
+
+                    </div> <!-- ./portfolio-item -->
+                    <div class="portfolio-item "> <!-- (4) -->
+                        <img src="images/work/work4.webp" alt="">
+
+                        <div class="layer-content">
+                            <div class="layer-info">
+                                <span class="category">category</span>
+                                <h3 class="layer-content-title mg-b-20">Lorem, ipsum dolor.</h3>
+                                <a href="#"><i class="fa fa-edit fa-lg"></i></a>
+                                <a href="#"><i class="fa fa-search fa-lg"></i></a>
+                            </div> <!-- ./layer-info -->
+                        </div> <!-- ./layer-content -->
+
+                    </div> <!-- ./portfolio-item -->
+                    <div class="portfolio-item mg "> <!-- (5) -->
+                        <img src="images/work/work5.webp" alt="">
+
+                        <div class="layer-content">
+                            <div class="layer-info">
+                                <span class="category">category</span>
+                                <h3 class="layer-content-title mg-b-20">Lorem, ipsum dolor.</h3>
+                                <a href="#"><i class="fa fa-edit fa-lg"></i></a>
+                                <a href="#"><i class="fa fa-search fa-lg"></i></a>
+                            </div> <!-- ./layer-info -->
+                        </div> <!-- ./layer-content -->
+
+                    </div> <!-- ./portfolio-item -->
+                    <div class="portfolio-item "> <!-- (6) -->
+                        <img src="images/work/work6.webp" alt="">
+
+                        <div class="layer-content">
+                            <div class="layer-info">
+                                <span class="category">category</span>
+                                <h3 class="layer-content-title mg-b-20">Lorem, ipsum dolor.</h3>
+                                <a href="#"><i class="fa fa-edit fa-lg"></i></a>
+                                <a href="#"><i class="fa fa-search fa-lg"></i></a>
+                            </div> <!-- ./layer-info -->
+                        </div> <!-- ./layer-content -->
+
+                    </div> <!-- ./portfolio-item -->
+                </div> <!-- ./portfolio-content -->
+            </div> <!-- ./container -->
+
+        </div> <!-- ./portfolio pd-y -->
+
+                                <!-- Offer Section -->
+        <div class="offer pd-y">
+            <div class="section-header mg-b-10">
+                <h2 class="section-title mg-b-10">what we offer</h2>
+                <span class="line"></span>
+            </div> <!-- ./section header -->
+
+            <div class="container">
+                
+                <div class="offer-content">
+                    <div class="offer-item ltr-effect mg-b-20"> <!----- (1) ----->
+                        <i class="icon fa fa-diamond fa-2x"></i>
+                        <h2 class="offer-item-title mg-b-15">app development</h2>
+                        <p class="offer-item-desc mg-b-15">Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p>
+                    </div> <!-- ./offer-item -->
+
+                    <div class="offer-item mg ltr-effect mg-b-20"> <!----- (2) ----->
+                        <i class="icon fa fa-diamond fa-2x"></i>
+                        <h2 class="offer-item-title mg-b-15">graphic design</h2>
+                        <p class="offer-item-desc mg-b-15">Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p>
+                    </div> <!-- ./offer-item -->
+
+                    <div class="offer-item ltr-effect mg-b-20"> <!----- (3) ----->
+                        <i class="icon fa fa-diamond fa-2x"></i>
+                        <h2 class="offer-item-title mg-b-15">creative idea</h2>
+                        <p class="offer-item-desc mg-b-15">Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p>
+                    </div> <!-- ./offer-item -->
+
+                    <div class="offer-item ltr-effect mg-b-20"> <!----- (4) ----->
+                        <i class="icon fa fa-diamond fa-2x"></i>
+                        <h2 class="offer-item-title mg-b-15">marketing</h2>
+                        <p class="offer-item-desc mg-b-15">Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p>
+                    </div> <!-- ./offer-item -->
+
+                    <div class="offer-item mg ltr-effect mg-b-20"> <!----- (5) ----->
+                        <i class="icon fa fa-diamond fa-2x"></i>
+                        <h2 class="offer-item-title mg-b-15">awesome support</h2>
+                        <p class="offer-item-desc mg-b-15">Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p>
+                    </div> <!-- ./offer-item -->
+
+                    <div class="offer-item ltr-effect mg-b-20"> <!----- (6) ----->
+                        <i class="icon fa fa-diamond fa-2x"></i>
+                        <h2 class="offer-item-title mg-b-15">drand design</h2>
+                        <p class="offer-item-desc mg-b-15">Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p>
+                    </div> <!-- ./offer-item -->
+                </div> <!--./offer content-->
+                
+            </div> <!-- ./container -->
+        </div> <!-- offer pd-y -->
+
+                                <!-- Service-Section -->
+        
+        <div class="service pd-y bg-gray">
+            <div class="container">
+                <div class="service-item">
+        
+                    <div class="section-header mg-b-10">
+                        <h2 class="section-title mg-b-10">Why Choose Us</h2>
+                        <span class="line"></span>
+                    </div> <!-- ./section-header -->
+                    <p class="service-item-desc mg-b-20">
+                        Molestie at elementum eu facilisis sed odio. Scelerisque in dictum non consectetur a erat. Aliquam id diam maecenas ultricies mi eget mauris. Ultrices sagittis orci a scelerisque purus.
+                    </p>
+                    <ul class="service-list">
+                        <li> <i class="fa fa-check fa-fw mg-b-10"></i> Quis varius quam quisque id diam vel quam elementu</li>
+                        <li> <i class="fa fa-check fa-fw mg-b-10"></i> Quis varius quam quisque id diam vel quam elementu</li>
+                        <li> <i class="fa fa-check fa-fw mg-b-10"></i> Quis varius quam quisque id diam vel quam elementu</li>
+                        <li> <i class="fa fa-check fa-fw mg-b-10"></i> Quis varius quam quisque id diam vel quam elementu</li>
+                    </ul> <!-- ./service-list -->
+        
+                </div> 
+        
+                <div class="service-item">
+                    <div class="service-item-img">
+                        <img src="images/about/about1.webp" alt=""/>
+                    </div> 
+                    <ul class="service-bollets">
+                        <li class="active"></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+                <div class="clear"></div>
+            </div> <!-- ./container -->
+        </div> <!-- service -->
+
+                                        <!-- Service-Section -->
+
+        <div class="numbers">
+            <div class="overlay">
+                <div class="container">
+                    <div class="numbers-items pd-y">
+                        <div class="number-item">
+                            <i class="icon fa fa-users fa-2x mg-b-15"></i>
+                            <h3 class="number-item-title">451</h3>
+                            <span class="number-item-text">happy clients</span>
+                        </div>
+                        <div class="number-item">
+                            <i class="icon fa fa-trophy fa-2x mg-b-15"></i>
+                            <h3 class="number-item-title">451</h3>
+                            <span class="number-item-text">happy clients</span>
+                        </div>
+                        <div class="number-item">
+                            <i class="icon fa fa-coffee fa-2x mg-b-15"></i>
+                            <h3 class="number-item-title">451k</h3>
+                            <span class="number-item-text">happy clients</span>
+                        </div>
+                        <div class="number-item">
+                            <i class="icon fa fa-file fa-2x mg-b-15"></i>
+                            <h3 class="number-item-title">451</h3>
+                            <span class="number-item-text">happy clients</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+                                                <!-- Prices Section -->
+        <div class="pricing pd-y">
+            <div class="section-header mg-b-10">
+                <h2 class="section-title mg-b-10">Pricing Table</h2>
+                <span class="line"></span>
+            </div> <!-- ./section-header -->
+            <div class="container">
+                <div class="pricing-plans">
+
+                    <div class="pricing-item tb-effect"> <!----- (1) ----->
+                        <span class="pricing-item-text">basic plan</span>
+                        <div class="pricing-item-permonth">
+                            <h3 class="dollar">$9</h3>
+                            <span class="month">/ month</span>
+                        </div>
+                        <ul class="pricing-list">
+                            <li>1GB disk space</li>
+                            <li>100 email account</li>
+                            <li>24/24 support</li>
+                        </ul>
+                        <button class="pricing-item-purchase">purchase Now</button>
+                    </div> <!-- ./pricing-item -->
+
+                    <div class="pricing-item mg tb-effect"> <!----- (2) ----->
+                        <span class="pricing-item-text">basic plan</span>
+                        <div class="pricing-item-permonth">
+                            <h3 class="dollar">$9</h3>
+                            <span class="month">/ month</span>
+                        </div>
+                        <ul class="pricing-list">
+                            <li>1GB disk space</li>
+                            <li>100 email account</li>
+                            <li>24/24 support</li>
+                        </ul>
+                        <button class="pricing-item-purchase">purchase Now</button>
+                    </div> <!-- ./pricing-item -->
+
+                    <div class="pricing-item tb-effect"> <!----- (3) ----->
+                        <span class="pricing-item-text">basic plan</span>
+                        <div class="pricing-item-permonth">
+                            <h3 class="dollar">$9</h3>
+                            <span class="month">/ month</span>
+                        </div>
+                        <ul class="pricing-list">
+                            <li>1GB disk space</li>
+                            <li>100 email account</li>
+                            <li>24/24 support</li>
+                        </ul>
+                        <button class="pricing-item-purchase">purchase Now</button>
+                    </div> <!-- ./pricing-item -->
+
+                </div> <!-- ./pricing-plans -->
+            </div> <!-- ./container -->
+        </div> <!-- ./pricing -->
+
+                                                <!-- Testimonial Section -->        
+
+        <div class="testimonial">
+            <div class="overlay">
+                <div class="container">
+                    <div class="testimonial-content">
+                        <div class="testimonial-item">
+                            <div class="testimonial-toplayer">
+                                <img src="images/Testimonial/perso1.webp"/>
+                                <h3>Joh Doe</h3>
+                                <span>Web Designer</span>
+                            </div>
+                            <p class="testimonial-desc">
+                                Molestie at elementum eu facilisis sed odio. Scelerisque in dictum non consectetur a erat. Aliquam id diam maecenas ultricies mi eget mauris.
+                            </p>
+                        </div> <!-- ./testimonial-item -->
+                        <div class="testimonial-item">
+                            <div class="testimonial-toplayer">
+                                <img src="images/Testimonial/perso2.webp"/>
+                                <h3>Joh Doe</h3>
+                                <span>Web Designer</span>
+                            </div>
+                            <p class="testimonial-desc">
+                                Molestie at elementum eu facilisis sed odio. Scelerisque in dictum non consectetur a erat. Aliquam id diam maecenas ultricies mi eget mauris.
+                            </p>
+                        </div> <!-- ./testimonial-item -->
+                        <div class="testimonial-item"></div>
+                    </div> <!-- ./testimonial-content -->
+                </div> <!-- ./containe -->
+            </div> <!-- ./overlay -->
+        </div> <!-- .testimonial -->
+
+                                                <!-- Team Section -->  
+        <div class="team pd-y">
+            <div class="section-header mg-b-10">
+                <h2 class="section-title mg-b-10">Our Team</h2>
+                <span class="line"></span>
+            </div> <!-- ./section-header -->
+            <div class="container">
+                <div class="team-content">
+
+                    <div class="team-item tb-effect"> <!----- (1) ----->
+                        <div class=team-img>
+                            <img src="images/team/team1.webp" alt=""/>
+                            <div class="team-overlay">
+                                <a href="https://www.facebook.com/SayedAyman57/" target="_blank"> <i class="fa fa-facebook"></i> </a>
+                                <a href="https://www.facebook.com/SayedAyman57/" target="_blank"> <i class="fa fa-google-plus"></i> </a>
+                                <a href="https://www.facebook.com/SayedAyman57/" target="_blank"> <i class="fa fa-twitter"></i> </a>
+                            </div>
+                        </div> <!-- ./team-img -->
+                        <div class="team-info">
+                            <h3 class="team-info-title">SAYED AYMAN</h3>
+                            <span class="team-info-text">web developer</span>
+                        </div> <!-- ./team-info -->
+                    </div> <!-- ./team-item -->
+
+                    <div class="team-item tb-effect mg"> <!----- (2) ----->
+                        <div class=team-img>
+                            <img src="images/team/team2.webp" alt=""/>
+                            <div class="team-overlay">
+                                <a href="https://www.facebook.com/profile.php?id=100009417087407" target="_blank"> <i class="fa fa-facebook"></i> </a>
+                                <a href="https://www.facebook.com/profile.php?id=100009417087407" target="_blank"> <i class="fa fa-google-plus"></i> </a>
+                                <a href="https://www.facebook.com/profile.php?id=100009417087407" target="_blank"> <i class="fa fa-twitter"></i> </a>
+                            </div>
+                        </div> <!-- ./team-img -->
+                        <div class="team-info">
+                            <h3 class="team-info-title">MOHAMED AYMAN</h3>
+                            <span class="team-info-text">Lawyer</span>
+                        </div> <!-- ./team-info -->
+                    </div> <!-- ./team-item -->
+
+                    <div class="team-item tb-effect"> <!----- (3) ----->
+                        <div class=team-img>
+                            <img src="images/team/team3.webp" alt=""/>
+                            <div class="team-overlay">
+                                <a href="#"> <i class="fa fa-facebook"></i> </a>
+                                <a href="#"> <i class="fa fa-google-plus"></i> </a>
+                                <a href="#"> <i class="fa fa-twitter"></i> </a>
+                            </div>
+                        </div> <!-- ./team-img -->
+                        <div class="team-info">
+                            <h3 class="team-info-title">john Doe</h3>
+                            <span class="team-info-text">Web Designer</span>
+                        </div> <!-- ./team-info -->
+                    </div> <!-- ./team-item -->
+
+                </div> <!-- ./team-content -->
+            </div> <!-- ./container -->
+        </div> <!-- ./team pd-y -->
+                                                
+                                                <!-- Blog Section -->
+         <div class="blog pd-y bg-gray">
+            <div class="section-header mg-b-10">
+                <h2 class="section-title mg-b-10">Recents News</h2>
+                <span class="line"></span>
+            </div> <!-- ./section-header -->
+
+            <div class="container">
+                <div class="blog-content">
+
+                    <div class="blog-item"> <!----- (1) ----->
+                        <div class="blog-item-img">
+                            <img src="images/blog/blog1.webp" alt=""/>
+                        </div>
+
+                        <div class="blog-info">
+                            <ul class="blog-list">
+                                <li>
+                                    <i class="fa fa-user"></i>
+                                    john Doe
+                                </li> 
+                                <li>
+                                    <i class="fa fa-clock-o"></i>
+                                    18 Oct
+                                </li>
+                                <li>
+                                    <i class="fa fa-comments"></i>
+                                    57
+                                </li>
+                            </ul>  <!-- ./blog-list -->
+                            <h3 class="blog-title">Molestie at elementum eu facilisis sed odio</h3>
+                            <p class="blog-desc mg-b-10">
+                                Nec feugiat nisl pretium fusce id velit ut tortor pretium. Nisl purus in mollis nunc sed. Nunc non blandit massa enim nec.
+                            </p>
+                            <a href="#" class="blog-link">Read more</a>
+                        </div> <!-- ./blog-info -->
+                    </div> <!-- ./blog-item -->
+
+                    <div class="blog-item mg"> <!----- (2) ----->
+                        <div class="blog-item-img">
+                            <img src="images/blog/blog2.webp" alt=""/>
+                        </div>
+
+                        <div class="blog-info">
+                            <ul class="blog-list">
+                                <li>
+                                    <i class="fa fa-user"></i>
+                                    john Doe
+                                </li> 
+                                <li>
+                                    <i class="fa fa-clock-o"></i>
+                                    18 Oct
+                                </li>
+                                <li>
+                                    <i class="fa fa-comments"></i>
+                                    57
+                                </li>
+                            </ul>  <!-- ./blog-list -->
+                            <h3 class="blog-title">Molestie at elementum eu facilisis sed odio</h3>
+                            <p class="blog-desc">
+                                Nec feugiat nisl pretium fusce id velit ut tortor pretium. Nisl purus in mollis nunc sed. Nunc non blandit massa enim nec.
+                            </p>
+                            <a href="#" class="blog-link">Read more</a>
+                        </div> <!-- ./blog-info -->
+                    </div> <!-- ./blog-item -->
+
+                    <div class="blog-item"> <!----- (3) ----->
+                        <div class="blog-item-img">
+                            <img src="images/blog/blog3.webp" alt=""/>
+                        </div>
+
+                        <div class="blog-info">
+                            <ul class="blog-list">
+                                <li>
+                                    <i class="fa fa-user"></i>
+                                    john Doe
+                                </li> 
+                                <li>
+                                    <i class="fa fa-clock-o"></i>
+                                    18 Oct
+                                </li>
+                                <li>
+                                    <i class="fa fa-comments"></i>
+                                    57
+                                </li>
+                            </ul>  <!-- ./blog-list -->
+                            <h3 class="blog-title">Molestie at elementum eu facilisis sed odio</h3>
+                            <p class="blog-desc">
+                                Nec feugiat nisl pretium fusce id velit ut tortor pretium. Nisl purus in mollis nunc sed. Nunc non blandit massa enim nec.
+                            </p>
+                            <a href="#" class="blog-link">Read more</a>
+                        </div> <!-- ./blog-info -->
+                    </div> <!-- ./blog-item -->
+
+                </div> <!-- ./blog-content -->
+            </div> <!-- ./container -->
+         </div> <!-- ./blog pd-y -->    
+
+                                                <!-- Contact Section -->
+         <div class="contact pd-y">
+            <div class="section-header mg-b-10">
+                <h2 class="section-title mg-b-10">Get In Touch</h2>
+                <span class="line"></span>
+            </div> <!-- ./section-header -->
+
+            <div class="container">
+                <div class="contact-over">
+
+                    <div class="contact-item"> <!----- (1) ----->
+                        <div class="contact-item-img">
+                            <i class="fa fa-phone"></i>
+                        </div>
+
+                        <div class="contact-item-info mg-b-20">
+                            <h3 class="contact-title">Phone</h3>
+                            <span class="contact-span">01027465920</span>
+                        </div>
+                    </div>
+
+                    <div class="contact-item mg"> <!----- (2) ----->
+                        <div class="contact-item-img">
+                            <i class="fa fa-envelope"></i>
+                        </div>
+
+                        <div class="contact-item-info mg-b-20">
+                            <h3 class="contact-title">Email</h3>
+                            <span class="contact-span">sayedayman2427@gmail.com</span>
+                        </div>
+                    </div>
+
+                    <div class="contact-item"> <!----- (3) ----->
+                        <div class="contact-item-img">
+                            <i class="fa fa-map-marker"></i>
+                        </div>
+
+                        <div class="contact-item-info mg-b-20">
+                            <h3 class="contact-title">Address</h3>
+                            <span class="contact-span">512-421-3940</span>
+                        </div>
+                    </div>
+
+                    <form class="contact-form">
+                        <input type="text" class="input-n mg-b-20" placeholder="Name">
+                        <input type="email" class="input-e mg-b-20" placeholder="Email">
+                        <input type="text" class="input mg-b-20" placeholder="Subject">
+                        <textarea class="input mg-b-20" placeholder="Message"></textarea>
+                        <div class="vertical-center">
+                            <button class="form-btn">Send Message</button>
+                        </div>
+                    </form> <!-- ./contact-form -->
+                    
+                </div> <!-- ./contact-over -->
+            </div> <!-- ./container -->
+         </div> <!-- ./contact pd-y -->
+                                                <!-- Footer Section -->
+
+          <div class="footer">
+              <img src="images/logo-alt.webp" alt=""/>
+              <ul class="footer-links">
+                  <li><a href="#" class="hover-opacity"><i class="fa fa-facebook"></i></a></li>
+                  <li><a href="#" class="hover-opacity"><i class="fa fa-twitter"></i></a></li>
+                  <li><a href="#" class="hover-opacity"><i class="fa fa-youtube"></i></a></li>
+                  <li><a href="#" class="hover-opacity"><i class="fa fa-linkedin"></i></a></li>
+                  <li><a href="#" class="hover-opacity"><i class="fa fa-google-plus"></i></a></li>
+                  <li><a href="#" class="hover-opacity"><i class="fa fa-instagram"></i></a></li>
+                </ul>
+                <p class="copyright">copyright &copy; 2021, all right reserved.</p>
+          </div>
+
+    </body>
+</html>
